@@ -1,12 +1,16 @@
-<!DOCTYPE html>
+{% extends 'movies/_base.html' %}
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <h1>My favorite movie genre has to be action tokyo drift fast and furious is a great movie</h1>
-    
-</body>
+  </head>
+  <body>
+    {% block content %}
+    <h1>
+      My favorite movie genre has to be action tokyo drift fast and furious is a
+      great movie
+    </h1>
+    {% endblock %}
+  </body>
 </html>
